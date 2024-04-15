@@ -1,0 +1,208 @@
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+main {
+  flex-grow: 1;
+  min-height: 70vh;
+}
+
+.common-btn{
+  border: 2px solid #23B0BE;
+  padding: 8px 30px;
+  color: #23B0BE;
+  margin: 10px auto;
+  display: block;  
+  background: linear-gradient(to right, #23B0BE 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: 0.6s ease all;
+}
+.common-btn:hover{
+  background-position: left bottom;
+    color: #ffffff;
+}
+
+.slick-prev, .slick-next
+{
+  width:30px !important;
+  height:50px !important;
+}
+
+.slick-next{
+  right: -50px !important;
+}
+
+.slick-prev{
+  left: -50px !important;
+}
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
+.css-1ygcj2i-MuiTableCell-root{
+  font-weight: 700 !important;
+}
+@media (max-width: 1199px){  
+  .slick-next{
+    right: -25px !important;
+  }
+  
+  .slick-prev{
+    left: -25px !important;
+  }
+  
+ }
+ @media (max-width: 767px){
+  h4{
+      font-size: 24px !important;
+  }
+  h2{
+    font-size: 24px !important;
+  }
+  .slick-next{
+    display: none !important;
+  }
+  
+  .slick-prev{
+    display: none !important;
+  }
+  footer{
+    padding: 0 20px;
+}
+footer .small-screen{
+    flex-wrap: wrap;
+    text-align: center !important;
+}
+footer .footer-item{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.extra-padding{
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  padding: 0 20px;
+}
+
+.form-wrapper{
+  flex-wrap: wrap;
+}
+
+.form-wrapper img{
+  width: 100% !important;
+}
+.form-wrapper form{
+  margin: 30px 0;
+}
+.form-wrapper form input{
+  padding: 8px !important;
+}
+
+.listing-upload{
+  display: flex;
+  flex-wrap: wrap;
+}
+.listing-upload .file-upload{
+  width: 100%;
+}
+.listing-upload form{
+  width: 100%;
+}
+.listing-upload .file-data{
+  width: 100% !important;
+}
+
+.flex-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-content .flex-content-image{
+  width: 100%;
+}
+.flex-content .flex-content-text{
+  width: 100%;
+}
+.flex-content .flex-content-text p{
+  margin-left: 0 !important;
+}
+.flex-content .flex-content-text h2{
+  margin-left: 0 !important;
+}
+.seller{
+  margin-left: 0 !important;
+}
+
+.chatWindow{
+  flex-wrap: wrap;
+}
+.userListSection{
+  width: 100%;
+}
+.messenger{
+  height: 30vh;
+}
+.chatWindow{
+  height: 50vh;
+}
+.chatSection{
+  width: 100%;
+}
+ }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.auth-link {
+  color: #23B0BE;
+  text-decoration: underline;
+}
+
+.snack-positive {
+  background-color: green !important;
+}
+
+.snack-negative {
+  background-color: red !important;
+}
