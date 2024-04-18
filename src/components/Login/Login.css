@@ -24,7 +24,7 @@
 .form-container {
   padding: 32px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
   justify-content: center;
 }
 
@@ -42,7 +42,7 @@
 
 
 .MuiTypography-h5 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
   font-weight: bold;
 }
 
