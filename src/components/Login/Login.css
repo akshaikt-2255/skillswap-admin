@@ -35,9 +35,9 @@
 
 
 .submit {
-  margin-top: 24px;
-  background-color: #61dafb;
-  color: white;
+  margin-top: 24px !important;
+  background-color: #61dafb !important;
+  color: white !important;
 }
 
 
